@@ -1,6 +1,6 @@
 var server = require("./server");
 var router = require("./route");
-var hanlder = require("./hanlder");
+var hanlder = require("./handler");
 
 var handle = {};
 handle['/'] = hanlder.index;
