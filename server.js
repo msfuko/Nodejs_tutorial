@@ -7,9 +7,10 @@ var start = function(route, handler) {
                 var queryString = url.parse(request.url).query;
 		console.log("request is received, url is " + pathname);
 		
-		response.writeHead(200, {"Content-type": "text/plain"});
-		response.write(route(handler, pathname));
-		response.end();
+		// response.writeHead(200, {"Content-type": "text/plain"});
+		// response.write(route(handler, pathname));
+		// response.end();
+                route(handler, pathname, response);
 
 		console.log("request processing is done, url is " + pathname 
                     + ", queryString is " + queryString);
