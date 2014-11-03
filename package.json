@@ -1,0 +1,11 @@
+{
+  "name": "docker-node-test",
+  "version": "0.0.1",
+  "description": "for docker demo",
+  "main": "index.js",
+  "author": "uiguy",
+  "license": "MIT",
+  "dependencies": {
+    "express": "*"
+  }
+}
